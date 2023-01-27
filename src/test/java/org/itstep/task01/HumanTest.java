@@ -11,7 +11,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
 
 import static org.itstep.TestUtil.*;
 

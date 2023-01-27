@@ -24,5 +24,15 @@ public class Main {
     public static void main(String[] args) {
         // TODO: Пишите классы в этом пакете
         // FIXME: здесь пример использования класса
+        Human human = new Human();
+
+        Human human1 = new Human(
+                "Michael Joseph Jackson",
+                "29-08-1958",
+                "+1 703-697-1776",
+                "Cupertino",
+                "USA",
+                "One Apple Park Way"
+        );
     }
 }
