@@ -1,5 +1,7 @@
 package org.itstep.task03;
 
+import org.itstep.task02.City;
+
 /**
  * Задание 3
  * <p>
