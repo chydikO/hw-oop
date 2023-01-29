@@ -85,4 +85,15 @@ public class Country {
     public void setCities(City[] cities) {
         this.cities = cities;
     }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "name='" + name + '\'' +
+                ", continent='" + continent + '\'' +
+                ", code='" + code + '\'' +
+                ", capital=" + capital +
+                ", cities=" + Arrays.toString(cities) +
+                '}';
+    }
 }

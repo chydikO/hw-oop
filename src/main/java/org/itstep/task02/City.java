@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
+
 public class City {
 
     private String name;
@@ -18,4 +19,16 @@ public class City {
     private int inhabitants;
     private String index;
     private String code;
+
+    @Override
+    public String toString() {
+        return "City{" +
+                "name='" + name + '\'' +
+                ", region='" + region + '\'' +
+                ", country='" + country + '\'' +
+                ", inhabitants=" + inhabitants +
+                ", index='" + index + '\'' +
+                ", code='" + code + '\'' +
+                '}';
+    }
 }
